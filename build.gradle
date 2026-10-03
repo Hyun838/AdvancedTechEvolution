@@ -5,6 +5,14 @@ buildscript {
             name = "forge"
             url = "https://maven.minecraftforge.net"
         }
+        maven {
+            name = "jitpack"
+            url = "https://jitpack.io"
+        }
+        maven {
+            name = "cleanroom"
+            url = "https://maven.cleanroommc.com"
+        }
     }
     dependencies {
         classpath "net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT"
@@ -31,6 +39,10 @@ repositories {
     maven {
         name = "forge"
         url = "https://maven.minecraftforge.net"
+    }
+    maven {
+        name = "cleanroom"
+        url = "https://maven.cleanroommc.com"
     }
 }
 
