@@ -2,10 +2,6 @@ buildscript {
     repositories {
         mavenCentral()
         maven {
-            name = "gt"
-            url = "https://gregtechceu.github.io/gtceu-maven/"
-        }
-        maven {
             name = "cleanroom"
             url = "https://maven.cleanroommc.com"
         }
