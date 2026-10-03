@@ -2,8 +2,8 @@ buildscript {
     repositories {
         mavenCentral()
         maven {
-            name = "gtnh"
-            url = "https://nexus.gtnewhorizons.com/repository/releases/"
+            name = "cleanroom"
+            url = "https://maven.cleanroommc.com"
         }
         maven {
             name = "forge"
@@ -11,7 +11,7 @@ buildscript {
         }
     }
     dependencies {
-        classpath "com.github.GTNewHorizons:ForgeGradle:2.3-1.0.10-GTNH"
+        classpath "com.cleanroommc:buildscript:1.0.0"
     }
 }
 
@@ -33,8 +33,8 @@ minecraft {
 repositories {
     mavenCentral()
     maven {
-        name = "gtnh"
-        url = "https://nexus.gtnewhorizons.com/repository/releases/"
+        name = "cleanroom"
+        url = "https://maven.cleanroommc.com"
     }
     maven {
         name = "forge"
@@ -48,13 +48,3 @@ dependencies {
 processResources {
     inputs.property "version", project.version
     inputs.property "mcversion", project.minecraft.version
-
-    from(sourceSets.main.resources.srcDirs) {
-        include 'mcmod.info'
-        expand 'version':project.version, 'mcversion':project.minecraft.version
-    }
-
-    from(sourceSets.main.resources.srcDirs) {
-        exclude 'mcmod.info'
-    }
-}
