@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:redstone"},
+    {"item": "minecraft:iron_ingot"}
+  ],
+  "result": {"item": "advancedtech:engineer_book"}
+}

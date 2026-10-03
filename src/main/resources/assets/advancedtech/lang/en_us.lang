@@ -1,0 +1,10 @@
+tile.advancedtech.electric_furnace.name=Electric Furnace
+item.advancedtech.engineer_book.name=Engineer's Book
+item.advancedtech.circuit.name=Circuit
+msg.advancedtech.locked=Research required: %s
+tile.advancedtech.combustion_generator.name=Combustion Generator
+tile.advancedtech.cable_lv.name=LV Cable
+tile.advancedtech.cable_mv.name=MV Cable
+tile.advancedtech.cable_hv.name=HV Cable
+tile.advancedtech.cable_ev.name=EV Cable
+item.advancedtech.air_filter.name=Air Filter

@@ -1,0 +1,6 @@
+{
+ "parent": "advancedtech:block/cable_arm",
+ "textures": {
+  "cable": "blocks/diamond_block"
+ }
+}

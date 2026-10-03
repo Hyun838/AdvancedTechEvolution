@@ -1,0 +1,22 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+  "PPP",
+  "BCB"
+ ],
+ "key": {
+  "P": {
+   "item": "minecraft:paper"
+  },
+  "B": {
+   "item": "minecraft:iron_bars"
+  },
+  "C": {
+   "item": "minecraft:coal"
+  }
+ },
+ "result": {
+  "item": "advancedtech:air_filter",
+  "count": 1
+ }
+}

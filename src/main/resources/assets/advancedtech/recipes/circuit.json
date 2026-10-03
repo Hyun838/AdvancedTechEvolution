@@ -1,0 +1,22 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+  "RRR",
+  "IGI"
+ ],
+ "key": {
+  "R": {
+   "item": "minecraft:redstone"
+  },
+  "I": {
+   "item": "minecraft:iron_ingot"
+  },
+  "G": {
+   "item": "minecraft:gold_nugget"
+  }
+ },
+ "result": {
+  "item": "advancedtech:circuit",
+  "count": 1
+ }
+}

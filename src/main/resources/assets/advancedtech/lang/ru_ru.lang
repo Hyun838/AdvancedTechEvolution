@@ -1,0 +1,10 @@
+tile.advancedtech.electric_furnace.name=Электрическая печь
+item.advancedtech.engineer_book.name=Книга Инженера
+item.advancedtech.circuit.name=Микросхема
+msg.advancedtech.locked=Требуется исследование: %s
+tile.advancedtech.combustion_generator.name=Топливный генератор
+tile.advancedtech.cable_lv.name=Кабель LV
+tile.advancedtech.cable_mv.name=Кабель MV
+tile.advancedtech.cable_hv.name=Кабель HV
+tile.advancedtech.cable_ev.name=Кабель EV
+item.advancedtech.air_filter.name=Воздушный фильтр

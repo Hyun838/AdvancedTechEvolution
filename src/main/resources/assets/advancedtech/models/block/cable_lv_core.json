@@ -1,0 +1,6 @@
+{
+ "parent": "advancedtech:block/cable_core",
+ "textures": {
+  "cable": "blocks/hardened_clay_stained_orange"
+ }
+}
