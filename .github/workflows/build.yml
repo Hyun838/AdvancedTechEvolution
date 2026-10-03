@@ -26,10 +26,4 @@ jobs:
         gradle-version: '4.10.3'
 
     - name: Build with Gradle
-      run: gradle build --no-daemon
-
-    - name: Upload Build Artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: AdvancedTechEvolution-jar
-        path: build/libs/*.jar
+      run: gradle build --no-daemon -Dforge.advanced.url=https://maven.minecraftforge.net
